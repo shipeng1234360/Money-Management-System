@@ -1,0 +1,277 @@
+.title{
+	color:turquoise;
+}
+
+header nav ul li{
+	display:inline;
+	font-size:1.0em;
+	list-style-type:none;
+	padding:10px;
+}
+
+
+
+.center{
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+h1{
+	font-size:250%;
+	text-align:center;
+}
+
+h3{
+	font-size:125%;
+	color:cyan;
+}
+
+
+p{
+	font-family:Times New Roman,Calibri,SimSun;
+	color:black;
+	font-size:175%;
+}
+
+body{
+	background-color:grey;
+}
+
+
+
+.EC{
+	list-style-type:circle;
+}
+
+.R{
+	list-style-type:square;
+}
+
+.ALE{
+	list-style-type:disc;
+}
+
+.VSS{
+	list-style-type:armenian;
+}
+
+.E{
+	list-style-type:georgian;
+}
+
+.reason{
+	color:red;
+	font-family:sans-serif;
+}
+
+.reason2{
+	color:cyan;
+	font-family:sans-serif;
+}
+ol{}
+
+li{
+	font-family:Verdana;
+	font-size:125%;
+	color:darkblue;
+}
+
+table{
+	font-family:Arial,Helvetica,sans-serif;
+	border-collapse:collapse;
+	width:100%;
+}
+
+td,th{
+	border: 3px solid yellow;
+	text-align:center;
+	padding:4px;
+	
+}
+
+
+tr:nth-child(odd) {
+	background-color:white;
+}
+
+tr:nth-child(even){
+	background-color:aqua;
+}
+
+
+
+.link{
+	width:100%
+}
+
+.reference{
+	font-family:Arial Black;
+	color:azure;
+	font-size:30px;
+}
+
+
+
+.content{
+	font-family:SimSun;
+	list-style-type:circle;
+	color:black;
+	font-size:17px;
+	text-align:center;
+}
+
+.name{
+      word-spacing:3px;
+	  line-height:1.3;
+	  
+}
+
+
+
+
+
+footer {
+	clear: left;
+	background-color: orange;
+	color: white;
+	text-align:center;
+	vertical-align: middle;
+	height: 45px;
+	font-size: 1.5em;
+	font-family:Arial , Helvetica , sans-serif;
+	display:block;
+}
+
+.userfeedback{
+	color:white;
+	font-family:SimSun;
+	
+}
+
+
+
+/* On screens that are 768px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 768px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+  
+
+}
+
+
+
+@media screen and (min-width: 1024px) {
+
+
+
+.classforrichman{
+	float:left;
+	width:23%;
+	
+}
+
+.richman{
+	color:black;
+	font-family:Arial;
+}
+
+.border{
+	border: 6px solid black;
+}
+
+.border2{
+	float:left;
+	width:44%;
+	text-align:justify;
+	
+}
+
+.classforquote{
+	float:left;
+	width:33%;
+    
+}
+
+.quote{
+	color:white;
+	box-sizing:border-box;
+	width: 300px;
+	height: 100px;
+	padding: 30px; 
+    border: 10px solid green;
+    background-color:black;	
+}
+
+
+.quotes{
+	text-align:justify;
+}
+
+.content{
+	font-family:SimSun;
+	list-style-type:circle;
+	color:black;
+	font-size:17px;
+	text-align:center;
+}
+
+.name{
+      word-spacing:3px;
+	  line-height:1.3;
+	  
+}
+
+}
+
+@media screen and (max-width: 1024px) {
+
+  
+.richman{
+	color:black;
+	font-family:Arial;
+}
+
+.classforrichman{
+	float:none;
+	width:100%;
+}
+  
+.border{
+	border: 6px solid black;
+}
+
+.border2{
+	float:none;
+	width:100%;
+	text-align:justify;
+}
+  
+.classforquote{
+	float:none;
+	width:100%;
+	height:10%;
+}
+
+.quote{
+	color:white;
+	box-sizing:border-box;
+	width: 300px;
+	height: 100px;
+	padding: 30px; 
+    border: 10px solid green;
+    background-color:black;	
+	text-align:center;
+}
+
+
+.quotes{
+	text-align:justify;
+}
+
+
+
+}
